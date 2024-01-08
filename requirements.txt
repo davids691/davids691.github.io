@@ -1,0 +1,11 @@
+opencv-python
+numpy
+tk
+Pillow
+tensorflow[and-cuda]
+tensorflow
+pyautogui
+pynput
+numpy
+serial
+chess

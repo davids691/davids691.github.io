@@ -1,0 +1,161 @@
+body {
+    background-color: linear-gradient(to bottom, #69e0c9, #7dc1de);
+    background-size: cover;
+    background-position: center;
+    animation: pageani 10s ease-in-out infinite;
+    /* transition: background-image 0.8s ease-in-out; */
+  }
+
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    font-family: 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: #333;
+    margin: 20px 0;
+  }
+
+  e2 {
+    font-family: 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: #615a5a;
+    margin: 20px 0;
+  }
+  
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #5f0606;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  animation: dropdownani 2s ease-in-out infinite;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+  .dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+
+
+  
+  @keyframes dropdownani {
+    0% {background-color: #7dc1de;}
+    50% {background-color: #69e0c9;}
+    100% {background-color: #7dc1de;}
+  }
+  
+  @keyframes pageani {
+    0% {background-color: #25c4af;}
+    25% {background-color: #25c47a;}
+    50% {background-color: #2597c4;}
+    100% {background-color: #25c4af;}
+
+  }
+
+
+
+
+  
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  .submit-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .submit-btn:hover {
+    background-color: #555;
+  }
